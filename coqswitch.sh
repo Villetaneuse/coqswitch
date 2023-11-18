@@ -12,8 +12,8 @@
 
 # This file is meant to be sourced in one of the shell's configuration file
 
-__COQBIN_SUFFIX="_build/install/default/bin"
-__COQLIB_SUFFIX="_build/install/default/lib"
+__COQBIN_SUFFIX="_build/install/default/bin/"
+__COQLIB_SUFFIX="_build/install/default/lib/"
 
 __coqswitch_usage()
 {
@@ -153,7 +153,7 @@ __coqswitch_concat()
 	fi
 }
 
-# A directory name (normally the elements of the lists we manipulate) as
+# A directory name (normally the elements of the lists we manipulate) has
 # infinitely many string representations: there can be repetitions of '/' and
 # trailing '/' characters or not
 
